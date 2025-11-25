@@ -103,7 +103,7 @@ st.divider()
 # Center the button for better visibility
 _, col_btn, _ = st.columns([1, 2, 1])
 with col_btn:
-    predict_btn = st.button("📊 Analyze Complete Health Profile", type="primary", use_container_width=True)
+    predict_btn = st.button("Analyze Diabetes Risk", type="primary", use_container_width=True)
 
 if predict_btn:
     # 1. Create DataFrame
